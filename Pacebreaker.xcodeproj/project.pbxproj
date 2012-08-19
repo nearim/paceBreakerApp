@@ -23,6 +23,7 @@
 		E124ED6715E0608E00EFD237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED3F15E0608E00EFD237 /* Foundation.framework */; };
 		E124ED6F15E0608E00EFD237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E124ED6D15E0608E00EFD237 /* InfoPlist.strings */; };
 		E124ED7215E0608E00EFD237 /* PacebreakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED7115E0608E00EFD237 /* PacebreakerTests.m */; };
+		E124ED8015E06A1600EFD237 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED7F15E06A1600EFD237 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E124ED6E15E0608E00EFD237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E124ED7015E0608E00EFD237 /* PacebreakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacebreakerTests.h; sourceTree = "<group>"; };
 		E124ED7115E0608E00EFD237 /* PacebreakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacebreakerTests.m; sourceTree = "<group>"; };
+		E124ED7F15E06A1600EFD237 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E124ED8015E06A1600EFD237 /* MapKit.framework in Frameworks */,
 				E124ED3E15E0608E00EFD237 /* UIKit.framework in Frameworks */,
 				E124ED4015E0608E00EFD237 /* Foundation.framework in Frameworks */,
 				E124ED4215E0608E00EFD237 /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +111,7 @@
 		E124ED3C15E0608E00EFD237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E124ED7F15E06A1600EFD237 /* MapKit.framework */,
 				E124ED3D15E0608E00EFD237 /* UIKit.framework */,
 				E124ED3F15E0608E00EFD237 /* Foundation.framework */,
 				E124ED4115E0608E00EFD237 /* CoreGraphics.framework */,
@@ -460,6 +464,7 @@
 				E124ED7715E0608E00EFD237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E124ED7815E0608E00EFD237 /* Build configuration list for PBXNativeTarget "PacebreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				E124ED7A15E0608E00EFD237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

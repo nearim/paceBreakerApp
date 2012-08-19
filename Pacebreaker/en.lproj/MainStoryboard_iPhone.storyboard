@@ -113,7 +113,7 @@
                     <tabBarItem key="tabBarItem" title="Friends" id="QRL-fb-NdF"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="783" y="1672"/>
+            <point key="canvasLocation" x="799" y="2292"/>
         </scene>
         <!--Table View Controller - Categories-->
         <scene sceneID="P2M-hj-fIM">
@@ -143,7 +143,7 @@
                     <tabBarItem key="tabBarItem" title="Categories" id="AFj-wi-Dxd"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="791" y="2254"/>
+            <point key="canvasLocation" x="791" y="1682"/>
         </scene>
     </scenes>
     <resources>
