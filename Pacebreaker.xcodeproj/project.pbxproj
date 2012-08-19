@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D324394315E1593B0028192C /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D324394215E1593B0028192C /* MapView.m */; };
+		D367504115E15E5400145EE5 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D367503F15E15E5400145EE5 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D367504715E1606D00145EE5 /* WayPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D367504615E1606D00145EE5 /* WayPointAnnotation.m */; };
+		D367504D15E1622A00145EE5 /* SFHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D367504C15E1622A00145EE5 /* SFHelperClass.m */; };
+		D367504E15E165AB00145EE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED9015E07A3000EFD237 /* CoreLocation.framework */; };
 		D3AB8A7B15E06DF400D43D77 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */; };
 		D3AB8A7E15E06EDF00D43D77 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */; };
 		D3AB8A8015E06F0200D43D77 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */; };
@@ -61,6 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D324394115E1593B0028192C /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		D324394215E1593B0028192C /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		D367503F15E15E5400145EE5 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D367504015E15E5400145EE5 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D367504515E1606D00145EE5 /* WayPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayPointAnnotation.h; sourceTree = "<group>"; };
+		D367504615E1606D00145EE5 /* WayPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WayPointAnnotation.m; sourceTree = "<group>"; };
+		D367504B15E1622A00145EE5 /* SFHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHelperClass.h; sourceTree = "<group>"; };
+		D367504C15E1622A00145EE5 /* SFHelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHelperClass.m; sourceTree = "<group>"; };
 		D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -147,9 +160,10 @@
 				D3AB8A7E15E06EDF00D43D77 /* CFNetwork.framework in Frameworks */,
 				D3AB8A7B15E06DF400D43D77 /* MobileCoreServices.framework in Frameworks */,
 				E124ED8015E06A1600EFD237 /* MapKit.framework in Frameworks */,
+				E124ED4215E0608E00EFD237 /* CoreGraphics.framework in Frameworks */,
+				D367504E15E165AB00145EE5 /* CoreLocation.framework in Frameworks */,
 				E124ED3E15E0608E00EFD237 /* UIKit.framework in Frameworks */,
 				E124ED4015E0608E00EFD237 /* Foundation.framework in Frameworks */,
-				E124ED4215E0608E00EFD237 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D324393F15E0A5D60028192C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D324394115E1593B0028192C /* MapView.h */,
+				D324394215E1593B0028192C /* MapView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D367503D15E15DEC00145EE5 /* RegexKitLite 4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D367503F15E15E5400145EE5 /* RegexKitLite.m */,
+				D367504015E15E5400145EE5 /* RegexKitLite.h */,
+			);
+			path = "RegexKitLite 4.0";
+			sourceTree = "<group>";
+		};
+		D367504415E1603000145EE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D367504B15E1622A00145EE5 /* SFHelperClass.h */,
+				D367504C15E1622A00145EE5 /* SFHelperClass.m */,
+				D367504515E1606D00145EE5 /* WayPointAnnotation.h */,
+				D367504615E1606D00145EE5 /* WayPointAnnotation.m */,
+				E124EDF915E09A2000EFD237 /* WayPoint.h */,
+				E124EDFA15E09A2000EFD237 /* WayPoint.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D3AB8AB115E070A700D43D77 /* SBJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,8 +284,11 @@
 		E124ED4315E0608E00EFD237 /* Pacebreaker */ = {
 			isa = PBXGroup;
 			children = (
+				D367503D15E15DEC00145EE5 /* RegexKitLite 4.0 */,
 				E14CD7E215E0A04E0010C22F /* SocketRocket */,
 				D3AB8AB115E070A700D43D77 /* SBJson */,
+				D367504415E1603000145EE5 /* Model */,
+				D324393F15E0A5D60028192C /* Views */,
 				E124ED4C15E0608E00EFD237 /* AppDelegate.h */,
 				E124ED4D15E0608E00EFD237 /* AppDelegate.m */,
 				E14CD87F15E167AA0010C22F /* MasterViewController.h */,
@@ -255,8 +303,13 @@
 				E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */,
 				E124ED8D15E079B500EFD237 /* Challenge.h */,
 				E124ED8E15E079B500EFD237 /* Challenge.m */,
+<<<<<<< HEAD
 				E124EDF915E09A2000EFD237 /* WayPoint.h */,
 				E124EDFA15E09A2000EFD237 /* WayPoint.m */,
+=======
+				E124ED5515E0608E00EFD237 /* ModelController.h */,
+				E124ED5615E0608E00EFD237 /* ModelController.m */,
+>>>>>>> cb3156e872af8df2414450298bf9127c676316f2
 				D3AB8A8515E06FB300D43D77 /* SocketIO.h */,
 				D3AB8A8615E06FB400D43D77 /* SocketIO.m */,
 				E124ED5815E0608E00EFD237 /* MainStoryboard_iPhone.storyboard */,
@@ -441,6 +494,10 @@
 				E14CD7EA15E0A04E0010C22F /* base64.c in Sources */,
 				E14CD7EB15E0A04E0010C22F /* NSData+SRB64Additions.m in Sources */,
 				E14CD7EC15E0A04E0010C22F /* SRWebSocket.m in Sources */,
+				D324394315E1593B0028192C /* MapView.m in Sources */,
+				D367504115E15E5400145EE5 /* RegexKitLite.m in Sources */,
+				D367504715E1606D00145EE5 /* WayPointAnnotation.m in Sources */,
+				D367504D15E1622A00145EE5 /* SFHelperClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

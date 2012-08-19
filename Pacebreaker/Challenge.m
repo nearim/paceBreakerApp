@@ -9,5 +9,9 @@
 #import "Challenge.h"
 
 @implementation Challenge
+@synthesize startTime, stopTime;
+@synthesize startLocation, stopLocation;
+@synthesize wayPoints;
+@synthesize userID;
 
 @end
