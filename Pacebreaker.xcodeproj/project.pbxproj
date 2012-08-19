@@ -66,8 +66,8 @@
 		D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D3AB8A8115E06F1500D43D77 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D3AB8A8315E06F2100D43D77 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D3AB8A8515E06FB300D43D77 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = submodules/SocketIO.h; sourceTree = SOURCE_ROOT; };
-		D3AB8A8615E06FB400D43D77 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = submodules/SocketIO.m; sourceTree = SOURCE_ROOT; };
+		D3AB8A8515E06FB300D43D77 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = "submodules/socket.IO-objc/SocketIO.h"; sourceTree = SOURCE_ROOT; };
+		D3AB8A8615E06FB400D43D77 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = "submodules/socket.IO-objc/SocketIO.m"; sourceTree = SOURCE_ROOT; };
 		D3AB8AB215E070A700D43D77 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		D3AB8AB315E070A700D43D77 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		D3AB8AB415E070A700D43D77 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 				D3AB8ACA15E070A700D43D77 /* SBJsonWriter.m */,
 			);
 			name = SBJson;
-			path = "submodules/submodules/json-framework/Classes";
+			path = "submodules/socket.IO-objc/submodules/json-framework/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		E124ED2E15E0608E00EFD237 = {
@@ -308,7 +308,7 @@
 				E14CD7E915E0A04E0010C22F /* SRWebSocket.m */,
 			);
 			name = SocketRocket;
-			path = "submodules/submodules/socket-rocket/SocketRocket";
+			path = "submodules/socket.IO-objc/submodules/socket-rocket/SocketRocket";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
