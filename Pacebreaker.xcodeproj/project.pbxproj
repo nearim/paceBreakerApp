@@ -53,6 +53,7 @@
 		E14CD88415E167AB0010C22F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD88215E167AA0010C22F /* DetailViewController.m */; };
 		E14CD88515E16AD00010C22F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD88015E167AA0010C22F /* MasterViewController.m */; };
 		E14CD88615E16AD80010C22F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD88215E167AA0010C22F /* DetailViewController.m */; };
+		E150300215E189050011CB3C /* NearbyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,15 +128,13 @@
 		E124ED7015E0608E00EFD237 /* PacebreakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacebreakerTests.h; sourceTree = "<group>"; };
 		E124ED7115E0608E00EFD237 /* PacebreakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacebreakerTests.m; sourceTree = "<group>"; };
 		E124ED7F15E06A1600EFD237 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E124ED8D15E079B500EFD237 /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenge.h; sourceTree = "<group>"; };
-		E124ED8E15E079B500EFD237 /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge.m; sourceTree = "<group>"; };
+		E124ED8D15E079B500EFD237 /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Challenge.h; path = ../Challenge.h; sourceTree = "<group>"; };
+		E124ED8E15E079B500EFD237 /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Challenge.m; path = ../Challenge.m; sourceTree = "<group>"; };
 		E124ED9015E07A3000EFD237 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E124ED9215E07A9800EFD237 /* NearbyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyMapViewController.h; sourceTree = "<group>"; };
 		E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyMapViewController.m; sourceTree = "<group>"; };
 		E124EDF115E080D500EFD237 /* BrowseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseTabBarController.h; sourceTree = "<group>"; };
 		E124EDF215E080D500EFD237 /* BrowseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseTabBarController.m; sourceTree = "<group>"; };
-		E124EDF915E09A2000EFD237 /* WayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WayPoint.h; path = Model/WayPoint.h; sourceTree = "<group>"; };
-		E124EDFA15E09A2000EFD237 /* WayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WayPoint.m; path = Model/WayPoint.m; sourceTree = "<group>"; };
 		E14CD7E315E0A04E0010C22F /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		E14CD7E415E0A04E0010C22F /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		E14CD7E515E0A04E0010C22F /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
@@ -185,6 +184,8 @@
 			children = (
 				D3A3DE0B15E177BA00784885 /* SFHelperClass.h */,
 				D3A3DE0C15E177BA00784885 /* SFHelperClass.m */,
+				E124ED8D15E079B500EFD237 /* Challenge.h */,
+				E124ED8E15E079B500EFD237 /* Challenge.m */,
 				D3A3DE0D15E177BA00784885 /* WayPoint.h */,
 				D3A3DE0E15E177BA00784885 /* WayPoint.m */,
 				D3A3DE0F15E177BA00784885 /* WayPointAnnotation.h */,
@@ -299,10 +300,6 @@
 				E124EDF215E080D500EFD237 /* BrowseTabBarController.m */,
 				E124ED9215E07A9800EFD237 /* NearbyMapViewController.h */,
 				E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */,
-				E124ED8D15E079B500EFD237 /* Challenge.h */,
-				E124ED8E15E079B500EFD237 /* Challenge.m */,
-				E124EDF915E09A2000EFD237 /* WayPoint.h */,
-				E124EDFA15E09A2000EFD237 /* WayPoint.m */,
 				D3AB8A8515E06FB300D43D77 /* SocketIO.h */,
 				D3AB8A8615E06FB400D43D77 /* SocketIO.m */,
 				E124ED5815E0608E00EFD237 /* MainStoryboard_iPhone.storyboard */,
@@ -483,6 +480,7 @@
 				E14CD88515E16AD00010C22F /* MasterViewController.m in Sources */,
 				E14CD88615E16AD80010C22F /* DetailViewController.m in Sources */,
 				E14CD83415E162350010C22F /* BrowseTabBarController.m in Sources */,
+				E150300215E189050011CB3C /* NearbyMapViewController.m in Sources */,
 				E14CD7EA15E0A04E0010C22F /* base64.c in Sources */,
 				E14CD7EB15E0A04E0010C22F /* NSData+SRB64Additions.m in Sources */,
 				E14CD7EC15E0A04E0010C22F /* SRWebSocket.m in Sources */,

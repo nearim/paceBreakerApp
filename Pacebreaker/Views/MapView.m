@@ -18,10 +18,9 @@
 -(void) centerMap;
 
 @end
-
 @implementation MapView
-@synthesize  mapView;
 @synthesize lineColor;
+@synthesize mapView;
 
 - (id) initWithFrame:(CGRect) frame
 {

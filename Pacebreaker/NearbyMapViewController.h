@@ -7,15 +7,15 @@
 //
 
 #import <MapKit/MapKit.h>
+#import "MapView.h"
 #import <UIKit/UIKit.h>
 
 @interface NearbyMapViewController : UIViewController<MKMapViewDelegate>
 {
 IBOutlet UITextField *addressField;
 IBOutlet UIButton *goButton;
-IBOutlet MKMapView *mapView;
 }
 
 @property NSMutableArray *events;
-
+@property(nonatomic, strong) IBOutlet MapView *mapView;
 @end

@@ -22,8 +22,7 @@
 	
 }
 @property (strong, nonatomic) UIColor* lineColor;
-@property (strong, nonatomic) MKMapView   *mapView;
-
+@property (strong, nonatomic) MKMapView *mapView;
 
 -(void) showRouteFrom: (WayPoint*) f to:(WayPoint*) t;
 
