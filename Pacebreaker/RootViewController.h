@@ -10,8 +10,6 @@
 #import "SocketIO.h"
 
 
-@interface RootViewController : UIViewController <UIPageViewControllerDelegate, SocketIODelegate>
-
-@property (strong, nonatomic) UIPageViewController *pageViewController;
+@interface RootViewController : UIViewController <UINavigationControllerDelegate, SocketIODelegate>
 
 @end
