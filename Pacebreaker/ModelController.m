@@ -44,8 +44,11 @@
     }
     
     // Create a new view controller and pass suitable data.
-    DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
-    dataViewController.dataObject = [self.pageData objectAtIndex:index];
+//    DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
+//    dataViewController.dataObject = [self.pageData objectAtIndex:index];
+    UITabBarController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
+//    dataViewController.dataObject = [self.pageData objectAtIndex:index];
+
     return dataViewController;
 }
 

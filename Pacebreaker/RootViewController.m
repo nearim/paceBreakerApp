@@ -10,7 +10,7 @@
 
 #import "ModelController.h"
 
-#import "DataViewController.h"
+#import "BrowseTabBarController.h"
 
 @interface RootViewController ()
 @property (readonly, strong, nonatomic) ModelController *modelController;
@@ -31,7 +31,7 @@
     DataViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
     NSArray *viewControllers = @[startingViewController];
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:NULL];
-
+    
     self.pageViewController.dataSource = self.modelController;
 
     [self addChildViewController:self.pageViewController];
@@ -103,10 +103,10 @@
 
     NSUInteger indexOfCurrentViewController = [self.modelController indexOfViewController:currentViewController];
     if (indexOfCurrentViewController == 0 || indexOfCurrentViewController % 2 == 0) {
-        UIViewController *nextViewController = [self.modelController pageViewController:self.pageViewController viewControllerAfterViewController:currentViewController];
+        UIViewController *nextViewController = [self.modelController pageViewController:self.pageViewController viewControllerAfterViewController:(UIViewController *)currentViewController];
         viewControllers = @[currentViewController, nextViewController];
     } else {
-        UIViewController *previousViewController = [self.modelController pageViewController:self.pageViewController viewControllerBeforeViewController:currentViewController];
+        UIViewController *previousViewController = [self.modelController pageViewController:self.pageViewController viewControllerBeforeViewController:(UIViewController *)currentViewController];
         viewControllers = @[previousViewController, currentViewController];
     }
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:NULL];

@@ -69,13 +69,13 @@
                     </connections>
                 </tabBarController>
             </objects>
-            <point key="canvasLocation" x="-34" y="1444"/>
+            <point key="canvasLocation" x="116" y="1682"/>
         </scene>
-        <!--First View Controller - Nearby-->
+        <!--Nearby View Controller - Nearby-->
         <scene sceneID="vvp-Mg-mxg">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKD-Wu-8Hz" sceneMemberID="firstResponder"/>
-                <viewController title="Nearby" id="eF0-bL-vxL" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController title="Nearby" id="eF0-bL-vxL" customClass="NearbyViewController" sceneMemberID="viewController">
                     <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="pVh-M8-yKv">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
