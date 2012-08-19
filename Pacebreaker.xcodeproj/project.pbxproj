@@ -25,9 +25,6 @@
 		D3AB8AD415E070A700D43D77 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8AC615E070A700D43D77 /* SBJsonTokeniser.m */; };
 		D3AB8AD515E070A700D43D77 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8AC815E070A700D43D77 /* SBJsonUTF8Stream.m */; };
 		D3AB8AD615E070A700D43D77 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8ACA15E070A700D43D77 /* SBJsonWriter.m */; };
-		D3AB8ADF15E070E700D43D77 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8AD815E070E700D43D77 /* base64.c */; };
-		D3AB8AE015E070E700D43D77 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8ADB15E070E700D43D77 /* NSData+SRB64Additions.m */; };
-		D3AB8AE115E070E700D43D77 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB8ADE15E070E700D43D77 /* SRWebSocket.m */; };
 		E124ED3E15E0608E00EFD237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED3D15E0608E00EFD237 /* UIKit.framework */; };
 		E124ED4015E0608E00EFD237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED3F15E0608E00EFD237 /* Foundation.framework */; };
 		E124ED4215E0608E00EFD237 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED4115E0608E00EFD237 /* CoreGraphics.framework */; };
@@ -45,11 +42,9 @@
 		E124ED6F15E0608E00EFD237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E124ED6D15E0608E00EFD237 /* InfoPlist.strings */; };
 		E124ED7215E0608E00EFD237 /* PacebreakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED7115E0608E00EFD237 /* PacebreakerTests.m */; };
 		E124ED8015E06A1600EFD237 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED7F15E06A1600EFD237 /* MapKit.framework */; };
-		E124ED8F15E079B500EFD237 /* Challenge.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED8E15E079B500EFD237 /* Challenge.m */; };
-		E124ED9115E07A3000EFD237 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED9015E07A3000EFD237 /* CoreLocation.framework */; };
-		E124ED9415E07A9800EFD237 /* NearbyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */; };
-		E124EDF315E080D500EFD237 /* BrowseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E124EDF215E080D500EFD237 /* BrowseTabBarController.m */; };
-		E124EDFB15E09A2000EFD237 /* WayPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E124EDFA15E09A2000EFD237 /* WayPoint.m */; };
+		E14CD7EA15E0A04E0010C22F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = E14CD7E315E0A04E0010C22F /* base64.c */; };
+		E14CD7EB15E0A04E0010C22F /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD7E615E0A04E0010C22F /* NSData+SRB64Additions.m */; };
+		E14CD7EC15E0A04E0010C22F /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD7E915E0A04E0010C22F /* SRWebSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,13 +90,6 @@
 		D3AB8AC815E070A700D43D77 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		D3AB8AC915E070A700D43D77 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		D3AB8ACA15E070A700D43D77 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		D3AB8AD815E070E700D43D77 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
-		D3AB8AD915E070E700D43D77 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
-		D3AB8ADA15E070E700D43D77 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
-		D3AB8ADB15E070E700D43D77 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
-		D3AB8ADC15E070E700D43D77 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
-		D3AB8ADD15E070E700D43D77 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
-		D3AB8ADE15E070E700D43D77 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
 		E124ED3915E0608E00EFD237 /* Pacebreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacebreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E124ED3D15E0608E00EFD237 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E124ED3F15E0608E00EFD237 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -136,6 +124,13 @@
 		E124EDF215E080D500EFD237 /* BrowseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseTabBarController.m; sourceTree = "<group>"; };
 		E124EDF915E09A2000EFD237 /* WayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayPoint.h; sourceTree = "<group>"; };
 		E124EDFA15E09A2000EFD237 /* WayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WayPoint.m; sourceTree = "<group>"; };
+		E14CD7E315E0A04E0010C22F /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		E14CD7E415E0A04E0010C22F /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		E14CD7E515E0A04E0010C22F /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		E14CD7E615E0A04E0010C22F /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		E14CD7E715E0A04E0010C22F /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		E14CD7E815E0A04E0010C22F /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		E14CD7E915E0A04E0010C22F /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,21 +196,6 @@
 			path = "submodules/submodules/json-framework/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
-		D3AB8AD715E070E600D43D77 /* SocketRocket */ = {
-			isa = PBXGroup;
-			children = (
-				D3AB8AD815E070E700D43D77 /* base64.c */,
-				D3AB8AD915E070E700D43D77 /* base64.h */,
-				D3AB8ADA15E070E700D43D77 /* NSData+SRB64Additions.h */,
-				D3AB8ADB15E070E700D43D77 /* NSData+SRB64Additions.m */,
-				D3AB8ADC15E070E700D43D77 /* SocketRocket-Prefix.pch */,
-				D3AB8ADD15E070E700D43D77 /* SRWebSocket.h */,
-				D3AB8ADE15E070E700D43D77 /* SRWebSocket.m */,
-			);
-			name = SocketRocket;
-			path = "submodules/submodules/socket-rocket/SocketRocket";
-			sourceTree = SOURCE_ROOT;
-		};
 		E124ED2E15E0608E00EFD237 = {
 			isa = PBXGroup;
 			children = (
@@ -238,14 +218,14 @@
 		E124ED3C15E0608E00EFD237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */,
+				E124ED4115E0608E00EFD237 /* CoreGraphics.framework */,
 				E124ED9015E07A3000EFD237 /* CoreLocation.framework */,
 				E124ED7F15E06A1600EFD237 /* MapKit.framework */,
 				E124ED3D15E0608E00EFD237 /* UIKit.framework */,
 				E124ED3F15E0608E00EFD237 /* Foundation.framework */,
-				E124ED4115E0608E00EFD237 /* CoreGraphics.framework */,
 				D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */,
 				E124ED6415E0608E00EFD237 /* SenTestingKit.framework */,
-				D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */,
 				D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */,
 				D3AB8A8115E06F1500D43D77 /* Security.framework */,
 				D3AB8A8315E06F2100D43D77 /* SystemConfiguration.framework */,
@@ -256,7 +236,7 @@
 		E124ED4315E0608E00EFD237 /* Pacebreaker */ = {
 			isa = PBXGroup;
 			children = (
-				D3AB8AD715E070E600D43D77 /* SocketRocket */,
+				E14CD7E215E0A04E0010C22F /* SocketRocket */,
 				D3AB8AB115E070A700D43D77 /* SBJson */,
 				E124ED4C15E0608E00EFD237 /* AppDelegate.h */,
 				E124ED4D15E0608E00EFD237 /* AppDelegate.m */,
@@ -312,6 +292,21 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		E14CD7E215E0A04E0010C22F /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				E14CD7E315E0A04E0010C22F /* base64.c */,
+				E14CD7E415E0A04E0010C22F /* base64.h */,
+				E14CD7E515E0A04E0010C22F /* NSData+SRB64Additions.h */,
+				E14CD7E615E0A04E0010C22F /* NSData+SRB64Additions.m */,
+				E14CD7E715E0A04E0010C22F /* SocketRocket-Prefix.pch */,
+				E14CD7E815E0A04E0010C22F /* SRWebSocket.h */,
+				E14CD7E915E0A04E0010C22F /* SRWebSocket.m */,
+			);
+			name = SocketRocket;
+			path = "submodules/submodules/socket-rocket/SocketRocket";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -439,9 +434,9 @@
 				D3AB8AD415E070A700D43D77 /* SBJsonTokeniser.m in Sources */,
 				D3AB8AD515E070A700D43D77 /* SBJsonUTF8Stream.m in Sources */,
 				D3AB8AD615E070A700D43D77 /* SBJsonWriter.m in Sources */,
-				D3AB8ADF15E070E700D43D77 /* base64.c in Sources */,
-				D3AB8AE015E070E700D43D77 /* NSData+SRB64Additions.m in Sources */,
-				D3AB8AE115E070E700D43D77 /* SRWebSocket.m in Sources */,
+				E14CD7EA15E0A04E0010C22F /* base64.c in Sources */,
+				E14CD7EB15E0A04E0010C22F /* NSData+SRB64Additions.m in Sources */,
+				E14CD7EC15E0A04E0010C22F /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
