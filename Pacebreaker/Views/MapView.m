@@ -160,7 +160,7 @@
 -(void) showRouteFrom: (WayPoint*) f to:(WayPoint*) t {
 	
     if(routes) {
-        [mapView removeAnnotations:[mapView annotations]];
+        //[mapView removeAnnotations:[mapView annotations]];
     }
 
     WayPointAnnotation* from = [[WayPointAnnotation alloc] initWithWayPoint:f];
