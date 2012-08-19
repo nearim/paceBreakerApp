@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3A3DE1115E177BA00784885 /* SFHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3DE0C15E177BA00784885 /* SFHelperClass.m */; };
+		D3A3DE1215E177BA00784885 /* WayPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3DE0E15E177BA00784885 /* WayPoint.m */; };
+		D3A3DE1315E177BA00784885 /* WayPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3DE1015E177BA00784885 /* WayPointAnnotation.m */; };
+		D3A3DE1B15E177CD00784885 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3DE1715E177CD00784885 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D3A3DE1C15E177CD00784885 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3DE1A15E177CD00784885 /* MapView.m */; };
+		D3A3DE1E15E1781C00784885 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED9015E07A3000EFD237 /* CoreLocation.framework */; };
 		D3AB8A7B15E06DF400D43D77 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */; };
 		D3AB8A7E15E06EDF00D43D77 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */; };
 		D3AB8A8015E06F0200D43D77 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */; };
@@ -61,6 +67,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3A3DE0B15E177BA00784885 /* SFHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHelperClass.h; sourceTree = "<group>"; };
+		D3A3DE0C15E177BA00784885 /* SFHelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHelperClass.m; sourceTree = "<group>"; };
+		D3A3DE0D15E177BA00784885 /* WayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayPoint.h; sourceTree = "<group>"; };
+		D3A3DE0E15E177BA00784885 /* WayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WayPoint.m; sourceTree = "<group>"; };
+		D3A3DE0F15E177BA00784885 /* WayPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayPointAnnotation.h; sourceTree = "<group>"; };
+		D3A3DE1015E177BA00784885 /* WayPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WayPointAnnotation.m; sourceTree = "<group>"; };
+		D3A3DE1615E177CD00784885 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D3A3DE1715E177CD00784885 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D3A3DE1915E177CD00784885 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		D3A3DE1A15E177CD00784885 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -141,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A3DE1E15E1781C00784885 /* CoreLocation.framework in Frameworks */,
 				D3AB8A8415E06F2100D43D77 /* SystemConfiguration.framework in Frameworks */,
 				D3AB8A8215E06F1500D43D77 /* Security.framework in Frameworks */,
 				D3AB8A8015E06F0200D43D77 /* libicucore.dylib in Frameworks */,
@@ -166,6 +183,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3A3DE0A15E177BA00784885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3DE0B15E177BA00784885 /* SFHelperClass.h */,
+				D3A3DE0C15E177BA00784885 /* SFHelperClass.m */,
+				D3A3DE0D15E177BA00784885 /* WayPoint.h */,
+				D3A3DE0E15E177BA00784885 /* WayPoint.m */,
+				D3A3DE0F15E177BA00784885 /* WayPointAnnotation.h */,
+				D3A3DE1015E177BA00784885 /* WayPointAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3A3DE1515E177CD00784885 /* RegexKitLite 4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3DE1615E177CD00784885 /* RegexKitLite.h */,
+				D3A3DE1715E177CD00784885 /* RegexKitLite.m */,
+			);
+			path = "RegexKitLite 4.0";
+			sourceTree = "<group>";
+		};
+		D3A3DE1815E177CD00784885 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3DE1915E177CD00784885 /* MapView.h */,
+				D3A3DE1A15E177CD00784885 /* MapView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D3AB8AB115E070A700D43D77 /* SBJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,13 +269,13 @@
 		E124ED3C15E0608E00EFD237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */,
-				E124ED4115E0608E00EFD237 /* CoreGraphics.framework */,
-				E124ED9015E07A3000EFD237 /* CoreLocation.framework */,
-				E124ED7F15E06A1600EFD237 /* MapKit.framework */,
-				E124ED3D15E0608E00EFD237 /* UIKit.framework */,
 				E124ED3F15E0608E00EFD237 /* Foundation.framework */,
+				E124ED3D15E0608E00EFD237 /* UIKit.framework */,
+				E124ED4115E0608E00EFD237 /* CoreGraphics.framework */,
+				E124ED7F15E06A1600EFD237 /* MapKit.framework */,
+				E124ED9015E07A3000EFD237 /* CoreLocation.framework */,
 				D3AB8A7A15E06DF400D43D77 /* MobileCoreServices.framework */,
+				D3AB8A7D15E06EDF00D43D77 /* CFNetwork.framework */,
 				E124ED6415E0608E00EFD237 /* SenTestingKit.framework */,
 				D3AB8A7F15E06F0200D43D77 /* libicucore.dylib */,
 				D3AB8A8115E06F1500D43D77 /* Security.framework */,
@@ -239,8 +287,11 @@
 		E124ED4315E0608E00EFD237 /* Pacebreaker */ = {
 			isa = PBXGroup;
 			children = (
+				D3A3DE1515E177CD00784885 /* RegexKitLite 4.0 */,
 				E14CD7E215E0A04E0010C22F /* SocketRocket */,
 				D3AB8AB115E070A700D43D77 /* SBJson */,
+				D3A3DE0A15E177BA00784885 /* Model */,
+				D3A3DE1815E177CD00784885 /* Views */,
 				E124ED4C15E0608E00EFD237 /* AppDelegate.h */,
 				E124ED4D15E0608E00EFD237 /* AppDelegate.m */,
 				E14CD87F15E167AA0010C22F /* MasterViewController.h */,
@@ -441,6 +492,11 @@
 				E14CD7EA15E0A04E0010C22F /* base64.c in Sources */,
 				E14CD7EB15E0A04E0010C22F /* NSData+SRB64Additions.m in Sources */,
 				E14CD7EC15E0A04E0010C22F /* SRWebSocket.m in Sources */,
+				D3A3DE1115E177BA00784885 /* SFHelperClass.m in Sources */,
+				D3A3DE1215E177BA00784885 /* WayPoint.m in Sources */,
+				D3A3DE1315E177BA00784885 /* WayPointAnnotation.m in Sources */,
+				D3A3DE1B15E177CD00784885 /* RegexKitLite.m in Sources */,
+				D3A3DE1C15E177CD00784885 /* MapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
