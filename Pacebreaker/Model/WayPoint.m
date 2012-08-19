@@ -9,5 +9,10 @@
 #import "WayPoint.h"
 
 @implementation WayPoint
+@synthesize name;
+@synthesize description;
+@synthesize latitude;
+@synthesize longitude;
+
 
 @end
