@@ -17,6 +17,8 @@
 
 @implementation MasterViewController
 
+@synthesize welcomeView;
+
 - (void)awakeFromNib
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

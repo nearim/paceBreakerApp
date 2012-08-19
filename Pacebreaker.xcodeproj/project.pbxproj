@@ -37,7 +37,6 @@
 		E124ED4815E0608E00EFD237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E124ED4615E0608E00EFD237 /* InfoPlist.strings */; };
 		E124ED4A15E0608E00EFD237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED4915E0608E00EFD237 /* main.m */; };
 		E124ED4E15E0608E00EFD237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED4D15E0608E00EFD237 /* AppDelegate.m */; };
-		E124ED5115E0608E00EFD237 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E124ED5015E0608E00EFD237 /* RootViewController.m */; };
 		E124ED5A15E0608E00EFD237 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E124ED5815E0608E00EFD237 /* MainStoryboard_iPhone.storyboard */; };
 		E124ED5D15E0608E00EFD237 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E124ED5B15E0608E00EFD237 /* MainStoryboard_iPad.storyboard */; };
 		E124ED6515E0608E00EFD237 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E124ED6415E0608E00EFD237 /* SenTestingKit.framework */; };
@@ -119,8 +118,6 @@
 		E124ED4B15E0608E00EFD237 /* Pacebreaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pacebreaker-Prefix.pch"; sourceTree = "<group>"; };
 		E124ED4C15E0608E00EFD237 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E124ED4D15E0608E00EFD237 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E124ED4F15E0608E00EFD237 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		E124ED5015E0608E00EFD237 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E124ED5915E0608E00EFD237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		E124ED5C15E0608E00EFD237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E124ED6315E0608E00EFD237 /* PacebreakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacebreakerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,8 +295,6 @@
 				E14CD88015E167AA0010C22F /* MasterViewController.m */,
 				E14CD88115E167AA0010C22F /* DetailViewController.h */,
 				E14CD88215E167AA0010C22F /* DetailViewController.m */,
-				E124ED4F15E0608E00EFD237 /* RootViewController.h */,
-				E124ED5015E0608E00EFD237 /* RootViewController.m */,
 				E124EDF115E080D500EFD237 /* BrowseTabBarController.h */,
 				E124EDF215E080D500EFD237 /* BrowseTabBarController.m */,
 				E124ED9215E07A9800EFD237 /* NearbyMapViewController.h */,
@@ -472,7 +467,6 @@
 			files = (
 				E124ED4A15E0608E00EFD237 /* main.m in Sources */,
 				E124ED4E15E0608E00EFD237 /* AppDelegate.m in Sources */,
-				E124ED5115E0608E00EFD237 /* RootViewController.m in Sources */,
 				D3AB8A8715E06FB400D43D77 /* SocketIO.m in Sources */,
 				D3AB8ACB15E070A700D43D77 /* NSObject+SBJson.m in Sources */,
 				D3AB8ACC15E070A700D43D77 /* SBJsonParser.m in Sources */,

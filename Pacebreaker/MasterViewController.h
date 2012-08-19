@@ -12,6 +12,7 @@
 
 @interface MasterViewController : UIViewController
 
+@property (strong, nonatomic) UIView *welcomeView;
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @end
