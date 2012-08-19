@@ -6,9 +6,11 @@
 //  Copyright (c) 2012 Nicholas. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "MapView.h"
-#import <UIKit/UIKit.h>
+#import "SFHelperClass.h"
+
 
 @interface NearbyMapViewController : UIViewController<MKMapViewDelegate>
 {

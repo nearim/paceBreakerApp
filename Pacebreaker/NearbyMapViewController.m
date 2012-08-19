@@ -5,10 +5,9 @@
 //  Created by Nicholas on 8/18/12.
 //  Copyright (c) 2012 Nicholas. All rights reserved.
 //
-
-#import "WayPoint.h"
 #import "NearbyMapViewController.h"
-#import "MapView.h"
+#import "WayPointAnnotation.h"
+#import "WayPoint.h"
 
 @implementation NearbyMapViewController
 
@@ -38,10 +37,25 @@
     WayPoint *point4 = [[WayPoint alloc] init];
     point4.name = @"End";
     point4.description = @"";
-    point4.latitude = 37.7713;
-    point4.longitude = -122.510937;
+    point4.latitude = 37.764082;
+    point4.longitude = -122.510315;
+
+    WayPoint *point5 = [[WayPoint alloc] init];
+    point5.name = @"End";
+    point5.description = @"";
+    point5.latitude = 37.7713;
+    point5.longitude = -122.510937;
+    
+    
+    mapView = [[MapView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:mapView];
 
     [self.mapView showRouteFrom:point1 to:point2];
+    [self.mapView showRouteFrom:point2 to:point3];
+    [self.mapView showRouteFrom:point3 to:point4];
+    [self.mapView showRouteFrom:point4 to:point5];
+//    [self.mapView showRouteFrom:point5 to:point1];
+
     
 }
 
