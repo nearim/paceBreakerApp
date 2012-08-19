@@ -117,8 +117,8 @@
 		E124ED8D15E079B500EFD237 /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenge.h; sourceTree = "<group>"; };
 		E124ED8E15E079B500EFD237 /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge.m; sourceTree = "<group>"; };
 		E124ED9015E07A3000EFD237 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		E124ED9215E07A9800EFD237 /* NearbyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyMapViewController.h; path = ../NearbyMapViewController.h; sourceTree = "<group>"; };
-		E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyMapViewController.m; path = ../NearbyMapViewController.m; sourceTree = "<group>"; };
+		E124ED9215E07A9800EFD237 /* NearbyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyMapViewController.h; sourceTree = "<group>"; };
+		E124ED9315E07A9800EFD237 /* NearbyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyMapViewController.m; sourceTree = "<group>"; };
 		E124EDF115E080D500EFD237 /* BrowseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseTabBarController.h; sourceTree = "<group>"; };
 		E124EDF215E080D500EFD237 /* BrowseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseTabBarController.m; sourceTree = "<group>"; };
 		E124EDF915E09A2000EFD237 /* WayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WayPoint.h; path = Model/WayPoint.h; sourceTree = "<group>"; };
